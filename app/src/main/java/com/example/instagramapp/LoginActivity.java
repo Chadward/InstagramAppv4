@@ -50,11 +50,13 @@ public class LoginActivity extends AppCompatActivity {
                 goMainActivity();
             }
 
-            private void goMainActivity() {
-                Intent intent = new Intent(, MainActivity.class);
-                startActivity(intent);
-                finish();
-            }
+
         });
+    }
+
+    private void goMainActivity() {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+        finish();
     }
 }
